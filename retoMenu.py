@@ -19,6 +19,9 @@ print('')
 
 while(num != 0):
     num = int(input('Ingresa el número :'))
+    if(num == 0):
+            break
+     
     opcion = int(input('Ingresa la opcion :'))
     
     if(opcion == 1):
@@ -40,6 +43,7 @@ while(num != 0):
             print('')
             
     elif(opcion == 4):
+            #potencia = math.pow(num,2)
             potencia = num ** 6
             print(f'La potencia  12 de {num } es : {potencia}')
             print('')
