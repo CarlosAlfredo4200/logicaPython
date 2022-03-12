@@ -1,0 +1,30 @@
+Python: lenguaje multiproposito
+
+| logica
+| web
+| analitica de datos
+| IA 
+
+
+Interpretado= Editor de código/IDE VS concuerde
+
+Dinamicamente tipado. 
+
+Identación es importante: x...  
+                            y...    
+                                z....
+
+---------------------------------------------------
+
+Tuplas :Las Tuplas en PYTHON son estructuras de datos similares a las LISTAS, 
+se diferencias en que estas son INMUTABLES, es decir no puedo agregar o eliminar 
+elementos de una tupla después de definirla:
+
+Podemos convertir una tupla en lista:
+numeros = (1,2,3,4,5,6)
+    print(numeros)
+
+ListarNumeros = list(numeros)
+
+--------------------------------------------------
+
