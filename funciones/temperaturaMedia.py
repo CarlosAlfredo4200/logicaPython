@@ -35,6 +35,6 @@ def mediaTemperatura():
         print('')
         print('Temperatura media Dia: '+format(mediaDia, ".2f"))
         print('Temperatura media general: ' + format(mediaGeneral, ".2f"))
-
+        print('')
 
 mediaTemperatura()
