@@ -8,14 +8,17 @@ persona = {
     
 }
 
-#print(persona['nombre'])
-#print(persona.get('edad'))
+# print(persona['nombre'])
+# print(persona.get('estado'))
 
-# print('')
-# for key, value in persona.items():
-#     print(f'{key} : {value}')
+print('')
+
+# ---------Recorrer diccionario----------
+
+for key, value in persona.items():
+    print(f'{key} : {value}')
     
     
-# for value in persona.values():
-#     print(value)
+for value in persona.values():
+    print(value)
      
