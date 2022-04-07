@@ -2,16 +2,16 @@
 # y la llene con números entregados por el usuario
 
 
-# lista = []
+lista = []
 
-# tamañoLista = int(input('Ingrese el tamaño deseado de la lista :'))
+tamañoLista = int(input('Ingrese el tamaño deseado de la lista :'))
 
-# for k in range(tamañoLista):
+for k in range(tamañoLista):
      
-#      lista.append(numeroIngresado)
-#      numeroIngresado = int(input('Ingresa el número :'))
-# else:
-#     print(f'La lista obtenida es :{lista}')
+     numeroIngresado = int(input('Ingresa el número :'))
+     lista.append(numeroIngresado)
+else:
+    print(f'La lista obtenida es :{lista}')
         
 
 # ------------------------ Version 2 ----------------------

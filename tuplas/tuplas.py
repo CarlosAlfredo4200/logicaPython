@@ -25,27 +25,27 @@
 # Convertir la tupla=(50,45,20,30,40,87) en una lista que solo contenga números >40 
 
 
-# tuplaNumeros =  (50,45,20,30,40,87)
+tuplaNumeros =  (50,45,20,30,40,87)
 
-# listaNumeros = []
+listaNumeros = []
 
-# for k in tuplaNumeros:
-#     if(k > 40):
-#           listaNumeros.append(k)
+for k in tuplaNumeros:
+    if(k > 40):
+          listaNumeros.append(k)
       
-#     nuevaDupla = tuple(listaNumeros)
-# print(nuevaDupla)
+    nuevaDupla = tuple(listaNumeros)
+print(nuevaDupla)
     
 #---------------------------------------------
 # Convertir la tupla=(50,45,20,30,40,87) en una lista que solo contenga números  PARES
 
-tupla=(50,45,20,30,40,87) 
+# tupla=(50,45,20,30,40,87) 
 
-nuevaTuplaNumeros = []
+# nuevaTuplaNumeros = []
 
-for item in tupla:
-     if(item % 2 == 0):
-         nuevaTuplaNumeros.append(item)
+# for item in tupla:
+#      if(item % 2 == 0):
+#          nuevaTuplaNumeros.append(item)
 
-print(nuevaTuplaNumeros)
+# print(nuevaTuplaNumeros)
 
