@@ -12,6 +12,7 @@ class Persona:
       return self.nombre
   def getApellido(self):
       return self.apellido
+  
   #--- Metodos para actualizar ---
   
   def setNombre(self, newNombre):
